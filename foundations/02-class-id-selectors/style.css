@@ -1,0 +1,15 @@
+.oddNum{
+    background-color: rgb(255, 165, 165);
+}
+.cooler{
+    font-size: 24px;
+}
+#Number2{
+    color: #0151ff;
+    font-size: 32px;
+}
+#Number4{
+    background-color: hsl(128, 93%, 84%);
+    font-size: 24px;
+    font-weight: bold;
+}
