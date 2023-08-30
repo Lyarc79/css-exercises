@@ -23,3 +23,31 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/*  MY SOLUTION */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  margin: 10px auto;
+}
+
+ul{
+  display: flex;
+  padding: 0;
+  margin: 0 10px;
+  gap: 1rem;
+}
+
+/* Correct Solution :
+
+My solution works fine aswell, 
+only should have used padding on the header 
+instead of putting margin on each box individually.
+
+*/
+
