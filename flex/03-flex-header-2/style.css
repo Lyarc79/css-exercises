@@ -46,3 +46,39 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* MY SOLUTION */
+
+.header{
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftItems{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.rightItems{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul{
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Correct Solution :
+
+Done everything correctly.
+Could have added css properties to right and left items
+in the same box to make shorter and cleaner code.
+
+*/
+
