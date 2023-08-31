@@ -24,3 +24,39 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* MY SOLUTION */
+
+.boxContainer{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.box{
+  text-align: center;
+  width: 200px;
+}
+
+.title{
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.text{
+  flex-wrap: wrap;
+}
+
+/* PROPER SOLUTION :
+
+- Could have done "text-align: center" in the whole body
+ instead of adding to different classe
+
+- Padding isn't needed on the title, margin done correctly.
+
+- Should have specified "max-width" instead of only "width" at the <box> class.
+
+- No need to add "flex-wrap" because it's done auto by default.
+
+*/
