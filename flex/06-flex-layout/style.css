@@ -25,3 +25,64 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* MY SOLUTION */
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #666;
+}
+
+button{
+  padding: 8px 16px;
+}
+
+.footer{
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.left-links{
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.right-links{
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+/* PROPER SOLUTION :
+
+- No needed to add styles to left and right links individually,
+  these could have been styled together in <ul> tag.
+
+- Header and footer coul've been styled together too.
+
+- Instead of styling the <container> div as the solution does,
+  I did it in the body css. It may look good now but lead
+  to future errors if adding more html.
