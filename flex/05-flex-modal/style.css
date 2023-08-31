@@ -67,3 +67,42 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* MY SOLUTION */
+
+.modal{
+  display: flex;
+  padding: 16px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.header{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icon{
+  align-self: left;
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.text{
+  margin-bottom: 8px;
+}
+
+/* PROPER SOLUTION : 
+
+- Should have added gap in <modal> instead of <container>.
+
+- Didn't need to left-align the icon since its done auto by the flex distribution.
+
+- Adding gap to <modal>, the use of many margins wouldn't have been necessary and neither the css to <container>.
