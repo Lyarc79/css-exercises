@@ -22,3 +22,11 @@ Now it's time to practice the Grid tools we've learned and create a layout that 
 - The header and footer elements span across both columns
 - The sidebar element only spans across the first column
 - The nav and article elements span across the second column
+
+
+SOLUTION:
+
+// My template is based on repeat 4 cols 8 rows and 1fr for each cell.
+// The sizes are distributed the same way and my grid is flexible.
+// My answer is larger since I specified grid-area in every element and the actual solution had to define only 3 and even shorter sizes.
+// The result is the same so I think its alright.
