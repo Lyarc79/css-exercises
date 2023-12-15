@@ -18,7 +18,7 @@ If you use the tools in the Advanced Grid Properties lesson you should be able t
 ![desired outcome stretched](./desired-outcome-stretched.png)
 
 ### Self Check
-- The container element has two columns
+- The container element has two columns 
 - The container's second column is 4 times larger than the first column
 - The container element has a gap of 4px
 - The header element has two columns
@@ -33,3 +33,8 @@ If you use the tools in the Advanced Grid Properties lesson you should be able t
 - The header and footer span across both columns
 - The sidebar only spans across the first column
 - The nav and article elements only span across the second column
+
+/// MY SOLUTION
+- Only mistake was defining template rows and some grid areas when it wasn't really needed,
+te content was getting auto adjusted. The rest was perfect.
+
